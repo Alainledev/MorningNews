@@ -1,0 +1,46 @@
+.articles {
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+}
+
+.author {
+	text-align: right;
+	margin-bottom: 12px;
+}
+
+.divider {
+	width: 100%;
+	height: 1px;
+	background-color: rgb(233, 190, 89);
+	margin: 15px 0px 15px 0px
+}
+
+.articleHeader {
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+}
+
+.bookmarkIcon {
+	cursor: pointer;
+}
+
+.bookmarkIcon:hover {
+	opacity: 0.6;
+}
+
+.goToArticle {
+	color: inherit; 
+	text-decoration: none;
+	cursor: pointer; 
+}
+  
+.goToArticle:hover {
+text-decoration: underline; 
+}
+
+.description {
+margin-top: 10px;
+height: 60px; 
+}

@@ -1,0 +1,81 @@
+@font-face {
+	font-family: "Old London";
+	src: url("/fonts/OldLondon.ttf");
+}
+
+.header {
+	border-bottom: 2px rgb(233, 190, 89) solid;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; */
+}
+
+.titleContainer {
+display: flex; /* Utiliser flex pour aligner les éléments horizontalement */
+justify-content: center;
+margin-top: 25px;
+}
+  
+.title {
+	font-size: 44px;
+	font-family: "Old London";
+	text-shadow: 1px 1px 0px #000;
+}
+
+.dateContainer {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 7%;
+	margin-bottom: 20px;
+}
+
+
+.linkContainer {
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+
+.userSection {
+	font-size: 22px;
+	width: 12vw;
+	cursor: pointer;
+}
+
+.userSection:hover {
+	opacity: 0.8;
+}
+
+.link {
+	cursor: pointer;
+	text-align: center;
+	margin-right: 200px; /* Ajustez la valeur de margin-right selon vos préférences */
+}
+
+.link:last-child {
+  	margin-right: 0; /* Pour éviter le margin-right sur le dernier élément */
+}
+
+.link:hover {
+	font-weight: 600;
+	color: rgba(233, 190, 89);
+}
+
+.registerContainer {
+	display: flex;
+	margin-bottom: 10px;
+	border-top: 0.5px lightgray solid;
+}
+
+.registerSection {
+	width: 250px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
